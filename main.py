@@ -1,7 +1,7 @@
 #!flask/bin/python
 # -- coding: utf-8 --
 
-__author__ = 'cloudtogo'
+__author__ = 'leo'
 
 from flask import render_template
 from flask import Flask
