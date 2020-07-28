@@ -12,8 +12,8 @@ import mysql.connector
 
 app = Flask(__name__)
 
-reload(sys)
-sys.setdefaultencoding('utf8')
+#reload(sys)
+#sys.setdefaultencoding('utf8')
 MySQLAddr = os.environ.get("MYSQLADDR")
 MySQLPwd = os.environ.get("MYSQLPWD")
 #MySQLAddr = "127.0.0.1"
